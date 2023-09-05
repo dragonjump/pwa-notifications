@@ -14,7 +14,7 @@ function initializeApp() {
 
     //Register the service worker
     navigator.serviceWorker
-      .register("../../sw.js")
+      .register("sw.js")
       .then(swReg => {
         
         statusPlaceholderHtml.append('Service Worker is registered')
